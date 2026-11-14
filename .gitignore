@@ -1,0 +1,15 @@
+# Local secrets
+backend/.env
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/*.py[cod]
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Local tooling
+.DS_Store
+Thumbs.db

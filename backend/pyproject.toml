@@ -1,0 +1,14 @@
+[project]
+name = "uk-stores-backend"
+version = "0.1.0"
+description = "UK Stores Srikakulam: FastAPI backend with Groq + Paytm MCP"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "httpx",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false

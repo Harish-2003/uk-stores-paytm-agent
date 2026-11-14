@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: uk-stores-paytm-agent
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/status
+    envVars:
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-120b
